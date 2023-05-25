@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="precos.css">
     <title>AlfaTech</title>
 </head>
 <body>
 
     <header>
-        <div>
-            <img src="images/logo-icone-escuro.png" alt="Logo Escuro">
-
-            <div>
-                <h1>AlfaTech</h1>
-                <p>Soluções em hospedagem</p>
+        <div class="container-topo limitar-secao"> 
+            <div class="topo-logo">
+                <img src="images/logo-icone-escuro.png" alt="Logo Escuro">
+                <div>
+                    <h1>AlfaTech</h1>
+                    <p>Soluções em hospedagem</p>
+                </div>
             </div>
         </div>
 
-        <nav>
+        <nav class="topo-links">
             <a href="home.html">HOME</a>
             <a href="home.html#informacao">INFORMAÇÕES</a>
             <a href="home.html#planos">PLANOS</a>
@@ -27,129 +32,182 @@
     </header>
 
     <main>
-
         <table>
             <thead>
-                <td></td>
-                <td>
-                    <p>PESSOAL</p>
-                    <p><strong>GRÁTIS</strong></p>
-                </td>
-                <td>
-                    <p>PROFISSIONAL</p>
-                    <p><strong>R$29</strong></p>
-                </td>
-                <td>
-                    <p>EMPRESARIAL</p>
-                    <p><strong>R$39</strong></p>
-                </td>
-                <td>
-                    <p>BIG TECHS</p>
-                    <p><strong>R$69</strong></p>
-                </td>
+                <tr>
+                    <th class="celula-escondida"></th>
+                    <th class="celula-cabecalho">
+                        <p>PESSOAL</p>
+                        <p><strong>GRÁTIS</strong></p>
+                    </th>
+                    <th class="celula-cabecalho">
+                        <p>PROFISSIONAL</p>
+                        <p><strong>R$29</strong></p>
+                    </th>
+                    <th class="celula-cabecalho">
+                        <p>EMPRESARIAL</p>
+                        <p><strong>R$39</strong></p>
+                    </th>
+                    <th class="celula-cabecalho">
+                        <p>BIG TECHS</p>
+                        <p><strong>R$69</strong></p>
+                    </th>
+                </tr>
             </thead>
 
             <tbody>
                 <tr>
-                    <td>MONITORAMENTO DE REDE</td>
+                    <td class="primeira-celula">MONITORAMENTO DE REDE</td>
                     <td>3 REDES</td>
                     <td>10 REDES</td>
                     <td>20 REDES</td>
                     <td>50 REDES</td>
                 </tr>
                 <tr>
-                    <td>DASHBOARD</td>
+                    <td class="primeira-celula">DASHBOARD</td>
                     <td>1 DASHBOARD</td>
                     <td>5 DASHBOARDs</td>
                     <td>10 DASHBOARDs</td>
                     <td>25 DASHBOARDs</td>
                 </tr>
                 <tr>
-                    <td>USUÁRIOS</td>
+                    <td class="primeira-celula">USUÁRIOS</td>
                     <td>1 USUÁRIO</td>
                     <td>5 USUÁRIO</td>
                     <td>10 USUÁRIOS</td>
                     <td>25 USUÁRIOS</td>
                 </tr>
                 <tr>
-                    <td>REALATÓRIO DE ATUALIZAÇÃO</td>
+                    <td class="primeira-celula">REALATÓRIO DE ATUALIZAÇÃO</td>
                     <td>TODA HORA</td>
                     <td>A CADA 30 MINUTOS</td>
                     <td>QUASE EM TEMPO REAL</td>
                     <td>TEMPO REAL*</td>
                 </tr>
                 <tr>
-                    <td>RELÁTORIO DE EMAILS</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="primeira-celula">RELÁTORIO DE EMAILS</td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
                 </tr>
                 <tr>
-                    <td>TRANSAÇÕES ILIMITADAS</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="primeira-celula">TRANSAÇÕES ILIMITADAS</td>
+                    <td>
+                        <div  class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div  class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div  class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div  class="marcador-azul"></div>
+                    </td>
                 </tr>
                 <tr>
-                    <td>RASTREADOR DE PAGAMENTO</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="primeira-celula">RASTREADOR DE PAGAMENTO</td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
                 </tr>
                 <tr>
-                    <td>EXPORTAÇÃO DE DADOS</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="primeira-celula">EXPORTAÇÃO DE DADOS</td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
                 </tr>
                 <tr>
-                    <td>CONVERSOR DE MOEDA</td>
+                    <td class="primeira-celula">CONVERSOR DE MOEDA</td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
                 </tr>
                 <tr>
-                    <td>ACESSO A API</td>
+                    <td class="primeira-celula">ACESSO A API</td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
                 </tr>
                 <tr>
-                    <td>RESTRIÇÃO DE IP</td>
+                    <td class="primeira-celula">RESTRIÇÃO DE IP</td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
                 </tr>
                 <tr>
-                    <td>FEED PERSONALIZADO</td>
+                    <td class="primeira-celula">FEED PERSONALIZADO</td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
+                    <td>
+                        <div class="marcador-azul"></div>
+                    </td>
                 </tr>
                 <tr>
-                    <td>LIMITE DE IMPORTAÇÃO DE DADOS</td>
+                    <td class="primeira-celula">LIMITE DE IMPORTAÇÃO DE DADOS</td>
                     <td>ÚLTIMO ANO</td>
                     <td>ÚLTIMOS 2 ANOS</td>
                     <td>ÚLTIMOS 3 ANOS</td>
                     <td>ÚLTIMOS 3 ANOS</td>
                 </tr>
                 <tr>
-                    <td>RETEÇÃO DE DADOS</td>
+                    <td class="primeira-celula">RETEÇÃO DE DADOS</td>
                     <td>TEMPO DE VIDA</td>
                     <td>TEMPO DE VIDA</td>
                     <td>TEMPO DE VIDA</td>
                     <td>TEMPO DE VIDA</td>
                 </tr>
                 <tr>
-                    <td>SUPORTE</td>
+                    <td class="primeira-celula">SUPORTE</td>
                     <td>EMAIL</td>
                     <td>EMAIL & CHAT</td>
                     <td>EMAIL & CHAT</td>
@@ -157,14 +215,12 @@
                 </tr>
             </tbody>
         </table>
-
     </main>
 
     <footer>
-
         <div>
             <div>
-                <div>
+                <div class="rodape-logo">
                     <img src="images/logo-icone-escuro.png" alt="Logo Escuro">
                     <div>
                         <h1>AlfaTech</h1>
@@ -172,13 +228,12 @@
                     </div>
                 </div>
 
-                <p>© AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
+                <p class="paragrafo-rodape">&copy; AlfaTech - Soluções em hospedagem - Todos os direitos reservados</p>
             </div>
 
-            <div>
+            <div class="container-copyright">
                 <p>Desenvolvido por Oliver Belém</p>
             </div>
-
     </footer>
 </body>
 </html>
